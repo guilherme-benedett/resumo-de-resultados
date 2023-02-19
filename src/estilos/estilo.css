@@ -16,7 +16,7 @@ main{
     background-color: #ffffff;
 }
 .score{
-    height: 50vh;
+    height: 43vh;
     width: 100vw;
     background-image: linear-gradient(to bottom, #7857ff, #1f1ce9);
     border-bottom-left-radius: 40px;
@@ -55,22 +55,73 @@ strong{
 .summary{
     padding: 30px;
     display: grid;
-    gap: 20px;
-    color: black;
-}
-.resultados{
-    padding-bottom: 25px;
+    gap: 34px;
 }
 .summary > div{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    padding: 17px 15px;
+    gap: 69px;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+.resultados{
+    padding-bottom: 10px;
+    color: #000000;
+    font-weight: 900;
 }
 .reaction{
     background-color: #ff575735;
 }
-.reaction > p{
-    color: rgb(204, 83, 83)
+.quesito-reaction{
+    color: red;
+    font-weight: 800;
 }
+.memory{
+    background-color: #ffff0089;
+}
+.quesito-memory{
+    color: #969603;
+    font-weight: 800;
+}
+.verbal{
+    background-color: #0080005d;
+}
+.quesito-verbal{
+    color: #008000;
+    font-weight: 800;
+}
+.visual{
+    background-color: #0000ff50;
+}
+.quesito-visual{
+    color: #0000ff;
+}
+span{
+    color: #0000006b;
+}
+.resultado-final{
+    color: #000000;
+    font-weight: 800;
+}
+.barra{
+    margin: 0px 10px;
+}
+#icone{
+    display: flex;
+}
+img{
+    margin-right: 6px;
+}
+button{
+    padding: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 40px;
+}
+.nota-total{
+    color: #ffffff7d;
+}
+
 
