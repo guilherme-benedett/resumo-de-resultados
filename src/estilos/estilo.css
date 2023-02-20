@@ -8,22 +8,21 @@
 }
 :root{
     --hanken: 'Hanken Grotesk', sans-serif;
-
 }
 main{
     height: 100vh;
-    width: 100vw;
     background-color: #ffffff;
     display: grid;
 }
 .score{
     min-height: 43vh;
-    width: 100vw;
+    width: 94vw;
     background-image: linear-gradient(to bottom, #7857ff, #1f1ce9);
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     padding: 60px;
     text-align: center;
+    margin: auto;
     
     display: flex;
     flex-direction: column;
@@ -56,7 +55,7 @@ strong{
 .summary{
     padding: 30px;
     display: grid;
-    gap: 34px;
+    gap: 24px;
 }
 .summary > div{
     display: flex;
@@ -64,6 +63,19 @@ strong{
     gap: 69px;
     padding: 20px 15px;
     border-radius: 15px;
+}
+.summary > div:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #000000;
+}
+.resultados:hover{
+    padding: 20px;
+    background-color: #0000ff4a;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+    border-radius: 30px;
 }
 .resultados{
     padding-bottom: 10px;
@@ -97,6 +109,9 @@ strong{
 .quesito-visual{
     color: #0000ff;
 }
+.nota-total{
+    color: #ffffff7d;
+}
 span{
     color: #0000006b;
 }
@@ -113,6 +128,10 @@ span{
 img{
     margin-right: 6px;
 }
+img:hover{
+    transform: rotate(360deg);
+    transition: ease-in-out 1s;
+}
 button{
     padding: 24px;
     background-color: #000000;
@@ -121,8 +140,10 @@ button{
     font-weight: 800;
     border-radius: 40px;
 }
-.nota-total{
-    color: #ffffff7d;
+button:hover{
+    background-color: #1f1ce9;
+    cursor: pointer;
 }
+
 
 
