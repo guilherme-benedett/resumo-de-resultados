@@ -70,6 +70,10 @@ strong{
     cursor: pointer;
     box-shadow: 1px 1px 10px #000000;
 }
+.summary > div:hover img{
+    transform: rotate(360deg);
+    transition: ease-in-out 1s;
+}
 .resultados:hover{
     padding: 20px;
     background-color: #0000ff4a;
@@ -127,10 +131,6 @@ span{
 }
 img{
     margin-right: 6px;
-}
-img:hover{
-    transform: rotate(360deg);
-    transition: ease-in-out 1s;
 }
 button{
     padding: 24px;
