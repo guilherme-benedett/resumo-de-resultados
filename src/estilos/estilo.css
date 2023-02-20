@@ -152,6 +152,7 @@ footer > p{
     color: #000000;
     margin: auto;
     padding: 30px;
+    text-align: justify;
 }
 a{
     text-decoration: none;
