@@ -144,6 +144,17 @@ button:hover{
     background-color: #1f1ce9;
     cursor: pointer;
 }
-
-
+footer{
+    display: grid;
+    justify-content: center;
+}
+footer > p{
+    color: #000000;
+    margin: auto;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
 
